@@ -1,0 +1,16 @@
+# Secrets, never commit your real token
+.env
+
+# The proxy database and any exported files, these are personal to each self-hosted copy
+data/
+output/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
