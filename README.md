@@ -49,7 +49,7 @@
 - [Backup Format](#backup-format)
 - [Troubleshooting](#troubleshooting)
 - [Security Notes](#security-notes)
-- [❤️ Support This Project](#-support-this-project)
+- [❤️ Support This Project](#️-support-this-project)
 
 ---
 
