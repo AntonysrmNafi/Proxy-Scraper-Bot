@@ -5,7 +5,7 @@
 **A Telegram bot that finds, tests, and ranks free proxies for you. Just tap buttons, no coding needed.**
 
 ![Python](https://img.shields.io/badge/python-3.11%2B-blue?logo=python&logoColor=white)
-![License](https://img.shields.io/badge/license-Private-lightgrey)
+[![License](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE)
 ![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux%20%7C%20Android%20%7C%20iOS-success)
 
 [![Support this project](https://img.shields.io/badge/💖_Support_this_project-Donate-ff69b4?style=for-the-badge)](https://nowpayments.io/donation/antonysrm)
@@ -49,6 +49,7 @@
 - [Backup Format](#backup-format)
 - [Troubleshooting](#troubleshooting)
 - [Security Notes](#security-notes)
+- [License](#license)
 - [❤️ Support This Project](#️-support-this-project)
 
 ---
@@ -602,6 +603,7 @@ proxybot/
 ├── requirements.txt           List of Python libraries the bot needs
 ├── .env.example                 Template, copy to .env and add your token
 ├── .gitignore                    Keeps your .env, database, and venv out of Git
+├── LICENSE                        MIT License, free to use, modify, and share
 ├── run.sh                         Loads .env and starts the bot (Linux/macOS/Termux)
 ├── Dockerfile                      Instructions for building a Docker image
 ├── docker-compose.yml               One-command Docker startup
@@ -692,6 +694,13 @@ using tmux/systemd/Docker), the bot stopped along with it, start it again.
   anywhere public (like GitHub). If a token ever leaks, revoke it immediately:
   [@BotFather](https://t.me/BotFather) → `/mybots` → your bot → API Token → **Revoke
   current token**, and put the new token in your `.env`.
+
+---
+
+## License
+
+[MIT](LICENSE), free to use, modify, and share. If you build something with it, a
+mention or a link back is always appreciated, but not required.
 
 ---
 
